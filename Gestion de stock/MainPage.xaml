@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Gestion_de_stock.MainPage">
+
+    <Grid>
+        <StackLayout BackgroundColor="White" Padding="20,55,20,20" Spacing="15">
+            <!-- العنوان -->
+            <Label TextColor="DarkSlateGray" TextDecorations="Underline" FontSize="34" HorizontalOptions="Center" FontAttributes="Bold">
+                Gestion De Stock
+            </Label>
+
+            <!-- الأزرار -->
+            <Button Clicked="Button_Clicked" Text="À propos des clients" Margin="0,16,0,0" BackgroundColor="Black" TextColor="White" CornerRadius="12" HeightRequest="55" />
+            <Button  Clicked="Button_Clicked_2" Text="À propos des produits" Margin="0,5,0,0" BackgroundColor="Black" TextColor="White" CornerRadius="12" HeightRequest="55"/>
+            <Button Clicked="Button_Clicked_3" Text="Guide" Margin="0,5,0,0" BackgroundColor="Black" TextColor="White" CornerRadius="12" HeightRequest="55"/>
+            <Button Clicked="Button_Clicked_1" Text="Quitter" Margin="0,35,0,20" BackgroundColor="DarkRed" TextColor="White" CornerRadius="12" HeightRequest="55"/>
+
+            <!-- مسافة لتثبيت النص في الأسفل -->
+            <BoxView HeightRequest="20" BackgroundColor="Transparent" />
+
+        </StackLayout>
+
+        <!-- footer -->
+        <StackLayout BackgroundColor="LightGray" Padding="15" Orientation="Vertical" VerticalOptions="End" HorizontalOptions="FillAndExpand">
+            <Label Text="This project was created by Yassine Jafa" TextColor="DimGray" FontSize="Small" HorizontalOptions="Center" Margin="0,0,0,5"/>
+            <Label Text="Email: jafayassine2@gmail.com" TextColor="DimGray" FontSize="Small" HorizontalOptions="Center" Margin="0,0,0,5"/>
+            <Label Text="Phone: +212 703643797" TextColor="DimGray" FontSize="Small" HorizontalOptions="Center"/>
+        </StackLayout>
+    </Grid>
+
+</ContentPage>

@@ -1,0 +1,25 @@
+E:\gestion de stock\Gestion de stock\Gestion de stock\bin\Release\netstandard2.0\Gestion de stock.deps.json
+E:\gestion de stock\Gestion de stock\Gestion de stock\bin\Release\netstandard2.0\Gestion de stock.dll
+E:\gestion de stock\Gestion de stock\Gestion de stock\bin\Release\netstandard2.0\ref\Gestion de stock.dll
+E:\gestion de stock\Gestion de stock\Gestion de stock\bin\Release\netstandard2.0\Gestion de stock.pdb
+E:\gestion de stock\Gestion de stock\Gestion de stock\obj\Release\netstandard2.0\Gestion de stock.csproj.AssemblyReference.cache
+E:\gestion de stock\Gestion de stock\Gestion de stock\obj\Release\netstandard2.0\Gestion de stock.GeneratedMSBuildEditorConfig.editorconfig
+E:\gestion de stock\Gestion de stock\Gestion de stock\obj\Release\netstandard2.0\App.xaml.g.cs
+E:\gestion de stock\Gestion de stock\Gestion de stock\obj\Release\netstandard2.0\client.xaml.g.cs
+E:\gestion de stock\Gestion de stock\Gestion de stock\obj\Release\netstandard2.0\clientins.xaml.g.cs
+E:\gestion de stock\Gestion de stock\Gestion de stock\obj\Release\netstandard2.0\guide.xaml.g.cs
+E:\gestion de stock\Gestion de stock\Gestion de stock\obj\Release\netstandard2.0\MainPage.xaml.g.cs
+E:\gestion de stock\Gestion de stock\Gestion de stock\obj\Release\netstandard2.0\password.xaml.g.cs
+E:\gestion de stock\Gestion de stock\Gestion de stock\obj\Release\netstandard2.0\pinsert.xaml.g.cs
+E:\gestion de stock\Gestion de stock\Gestion de stock\obj\Release\netstandard2.0\product.xaml.g.cs
+E:\gestion de stock\Gestion de stock\Gestion de stock\obj\Release\netstandard2.0\prview.xaml.g.cs
+E:\gestion de stock\Gestion de stock\Gestion de stock\obj\Release\netstandard2.0\suppro.xaml.g.cs
+E:\gestion de stock\Gestion de stock\Gestion de stock\obj\Release\netstandard2.0\suprim.xaml.g.cs
+E:\gestion de stock\Gestion de stock\Gestion de stock\obj\Release\netstandard2.0\viewclie.xaml.g.cs
+E:\gestion de stock\Gestion de stock\Gestion de stock\obj\Release\netstandard2.0\Gestion de stock.AssemblyInfoInputs.cache
+E:\gestion de stock\Gestion de stock\Gestion de stock\obj\Release\netstandard2.0\Gestion de stock.AssemblyInfo.cs
+E:\gestion de stock\Gestion de stock\Gestion de stock\obj\Release\netstandard2.0\Gestion de stock.csproj.CoreCompileInputs.cache
+E:\gestion de stock\Gestion de stock\Gestion de stock\obj\Release\netstandard2.0\XamlC.stamp
+E:\gestion de stock\Gestion de stock\Gestion de stock\obj\Release\netstandard2.0\Gestion de stock.dll
+E:\gestion de stock\Gestion de stock\Gestion de stock\obj\Release\netstandard2.0\refint\Gestion de stock.dll
+E:\gestion de stock\Gestion de stock\Gestion de stock\obj\Release\netstandard2.0\Gestion de stock.pdb

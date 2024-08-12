@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Gestion_de_stock.product">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White" Padding="20,50,20,20" Spacing="20">
+            <!-- Title -->
+            <Label Text="Informations sur les produits" 
+                   TextColor="#333333" 
+                   FontSize="24" 
+                   FontAttributes="Bold" 
+                   HorizontalOptions="Center" 
+                   TextDecorations="None"
+                   Margin="0,0,0,20"/>
+
+            <!-- Buttons -->
+            <Button Text="Ajouter un produit" 
+                    Margin="0,10,0,10" 
+                    BackgroundColor="#004d40" 
+                    TextColor="White" 
+                    CornerRadius="12" 
+                    HeightRequest="60" 
+                    HorizontalOptions="FillAndExpand"
+                    Clicked="Button_Clicked_1"/>
+
+            <Button Text="Supprimer un produit" 
+                    Margin="0,0,0,10" 
+                    BackgroundColor="#c62828" 
+                    TextColor="White" 
+                    CornerRadius="12" 
+                    HeightRequest="60" 
+                    Clicked="Button_Clicked_3"
+                    HorizontalOptions="FillAndExpand"/>
+
+            <Button Text="Voir tous les produits" 
+                    Margin="0,0,0,10" 
+                    BackgroundColor="#0288d1" 
+                    TextColor="White" 
+                    CornerRadius="12" 
+                    HeightRequest="60" 
+                    Clicked="Button_Clicked_2"
+                    HorizontalOptions="FillAndExpand"/>
+
+            <!-- Back Button -->
+            <Button Text="Retour" 
+                    BackgroundColor="#0288d1" 
+                    TextColor="White" 
+                    CornerRadius="12" 
+                    HeightRequest="60" 
+                    HorizontalOptions="FillAndExpand" 
+                    Clicked="Button_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

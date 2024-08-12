@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Gestion_de_stock.prview">
+   <ContentPage.Content>
+        <StackLayout Padding="20" Spacing="20" BackgroundColor="#eaeaea">
+
+        <!-- Page Title Label -->
+        <Label Text="Gestion et Visualisation des Product"
+                   FontSize="28"
+                   TextColor="#2C3E50"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Start"
+                   FontAttributes="Bold"
+                   Margin="0,20,0,20"
+                   HorizontalTextAlignment="Center"
+                   LineBreakMode="WordWrap"
+                   WidthRequest="300"/>
+
+        <!-- CollectionView -->
+        <CollectionView x:Name="collectionView"
+                            HeightRequest="350"
+                            VerticalOptions="FillAndExpand">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame Padding="15"
+                               Margin="10"
+                               BackgroundColor="#FFFFFF"
+                               BorderColor="#B0C4DE"
+                               CornerRadius="15"
+                               HasShadow="True">
+                        <StackLayout Spacing="15">
+                            <StackLayout Orientation="Horizontal" Spacing="10">
+                                <Label Text="ID De Produit:" 
+                                           FontSize="Large" 
+                                           TextColor="#333333" 
+                                           VerticalOptions="Center"
+                                           FontAttributes="Bold"/>
+                                <Label Text="{Binding ID}" 
+                                           FontSize="Large" 
+                                           TextColor="#000000" 
+                                           VerticalOptions="Center"
+                                           FontAttributes="Bold"/>
+                            </StackLayout>
+
+                            <StackLayout Orientation="Horizontal" Spacing="10">
+                                <Label Text="Nom De produit :" 
+                                           FontSize="Large" 
+                                           TextColor="#333333" 
+                                           VerticalOptions="Center"
+                                           FontAttributes="Bold"/>
+                                <Label Text="{Binding Name}" 
+                                           FontSize="Large" 
+                                           TextColor="#000000" 
+                                           VerticalOptions="Center"
+                                           FontAttributes="Bold"/>
+                            </StackLayout>
+
+                            <StackLayout Orientation="Horizontal" Spacing="10">
+                                <Label Text="Price de produit :"
+                                            
+                                           FontSize="Large" 
+                                           TextColor="#333333" 
+                                           VerticalOptions="Center"
+                                           FontAttributes="Bold"/>
+                                <Label Text="{Binding Price}" 
+                                           FontSize="Large" 
+                                           TextColor="#000000" 
+                                           VerticalOptions="Center"
+                                           FontAttributes="Bold"/>
+                            </StackLayout>
+                                
+                                <StackLayout Orientation="Horizontal" Spacing="10">
+                                    <Label Text="Quantity de produit :"
+ 
+FontSize="Large" 
+TextColor="#333333" 
+VerticalOptions="Center"
+FontAttributes="Bold"/>
+                                    <Label Text="{Binding Quantity}" 
+FontSize="Large" 
+TextColor="#000000" 
+VerticalOptions="Center"
+FontAttributes="Bold"/>
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal" Spacing="10">
+                                    <Label Text="Description de produit :"
+ 
+FontSize="Large" 
+TextColor="#333333" 
+VerticalOptions="Center"
+FontAttributes="Bold"/>
+                                    <Label Text="{Binding Description}" 
+FontSize="Large" 
+TextColor="#000000" 
+VerticalOptions="Center"
+FontAttributes="Bold"/>
+                                </StackLayout>
+                            </StackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <!-- Back Button -->
+        <Frame Padding="0" 
+                   CornerRadius="15"
+                   BackgroundColor="#4682B4"
+                   HasShadow="True">
+            <Button Text="Retour"
+                        TextColor="#FFFFFF"
+                        FontSize="Large"
+                        HeightRequest="50"
+                        HorizontalOptions="FillAndExpand"
+                        VerticalOptions="End"
+                        Clicked="Button_Clicked"
+                        BackgroundColor="Transparent"/>
+        </Frame>
+    </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

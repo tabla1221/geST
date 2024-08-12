@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Gestion_de_stock.clientins"
+             BackgroundColor="#eaeaea">
+
+    <ContentPage.Content>
+        <StackLayout Padding="20" Spacing="10" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+
+            <!-- Description Frame -->
+            <Frame HasShadow="True"
+                   Padding="10"
+                   BackgroundColor="Transparent"
+                   CornerRadius="8"
+                   Margin="-10,0,0,15"
+                   HorizontalOptions="FillAndExpand">
+                <Label Text="L'ID est automatiquement généré et ne peut pas être modifié"
+                       FontSize="Medium"
+                       TextColor="Black"
+                       HorizontalOptions="FillAndExpand"
+                       VerticalOptions="Center"
+                       HorizontalTextAlignment="Center"/>
+            </Frame>
+
+            <!-- Entry for Name -->
+            <Frame BackgroundColor="Gainsboro"
+                   BorderColor="LightSlateGray"
+                   CornerRadius="5"
+                   Padding="0"
+                   Margin="0,0,0,5">
+                <Entry x:Name="nameEntry"
+                       Placeholder="Nom"
+                       PlaceholderColor="DimGray"
+                       TextColor="Black"
+                       BackgroundColor="Transparent"
+                       FontSize="Medium"
+                       HeightRequest="50"
+                       HorizontalOptions="FillAndExpand"/>
+            </Frame>
+
+            <!-- Entry for Email -->
+            <Frame BackgroundColor="Gainsboro"
+                   BorderColor="LightSlateGray"
+                   CornerRadius="5"
+                   Padding="0"
+                   Margin="0,0,0,5">
+                <Entry x:Name="emailEntry"
+                       Placeholder="Email"
+                       Keyboard="Email"
+                       PlaceholderColor="DimGray"
+                       TextColor="Black"
+                       BackgroundColor="Transparent"
+                       FontSize="Medium"
+                       HeightRequest="50"
+                       HorizontalOptions="FillAndExpand"/>
+            </Frame>
+
+            <!-- Entry for Phone -->
+            <Frame BackgroundColor="Gainsboro"
+                   BorderColor="LightSlateGray"
+                   CornerRadius="5"
+                   Padding="0"
+                   Margin="0,0,0,5">
+                <Entry x:Name="phoneEntry"
+                       Keyboard="Numeric"
+                       MaxLength="10"
+                TextChanged="phoneEntry_TextChanged"
+                       Placeholder="Téléphone"
+                       PlaceholderColor="DimGray"
+                       TextColor="Black"
+                       BackgroundColor="Transparent"
+                       FontSize="Medium"
+                       HeightRequest="50"
+                       HorizontalOptions="FillAndExpand"/>
+            </Frame>
+
+            <!-- Entry for Address -->
+            <Frame BackgroundColor="Gainsboro"
+                   BorderColor="LightSlateGray"
+                   CornerRadius="5"
+                   Padding="0"
+                   Margin="0,0,0,15">
+                <Entry x:Name="adresseEntry"
+                       Placeholder="Adresse"
+                       PlaceholderColor="DimGray"
+                       TextColor="Black"
+                       BackgroundColor="Transparent"
+                       FontSize="Medium"
+                       HeightRequest="50"
+                       HorizontalOptions="FillAndExpand"/>
+            </Frame>
+
+            <!-- Save Button -->
+            <Button Text="Sauvegarder"
+                    BackgroundColor="Green"
+                    TextColor="White"
+                    CornerRadius="20"
+                    HeightRequest="50"
+                    FontSize="Medium"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="Start"
+                    Clicked="Button_Clicked"/>
+
+            <!-- Back Button -->
+            <Button Text="Retour"
+                    BackgroundColor="DodgerBlue"
+                    TextColor="White"
+                    CornerRadius="20"
+                    HeightRequest="50"
+                    FontSize="Medium"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="End"
+                    Clicked="Button_Clicked_1"/>
+
+            <!-- Instruction Label -->
+            <Label Text="Pour trouver les Clients que vous avez enregistrés: appuyez sur Retour -> Voir tous les clients"
+                   FontSize="Medium"
+                   TextColor="DimGray"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   Margin="0,20,0,0"/>
+
+            <!-- Thank You Message -->
+            <Label Text="Merci de votre attention!"
+                   FontSize="Large"
+                   TextColor="DimGray"
+                   HorizontalOptions="Center"
+                   VerticalOptions="EndAndExpand"
+                   Margin="0,20,0,0"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

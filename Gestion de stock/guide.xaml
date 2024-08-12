@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Gestion_de_stock.guide">
+    <StackLayout>
+        <ScrollView>
+            <StackLayout BackgroundColor="White" Padding="20" Spacing="20">
+
+                <!-- Titre principal -->
+                <Label Text="Guide d'utilisation de l'application de gestion de stock" 
+                       TextColor="DarkSlateBlue" 
+                       FontSize="24" 
+                       FontAttributes="Bold" 
+                       HorizontalOptions="Center" />
+
+                <!-- À propos de l'application -->
+                <Label Text="À propos de l'application" 
+                       TextColor="SteelBlue" 
+                       FontSize="20" 
+                       FontAttributes="Bold" />
+                <Label Text="Cette application de gestion de stock vous aide à organiser et suivre les produits de votre inventaire de manière efficace. Vous pouvez facilement ajouter, supprimer et visualiser les produits grâce à une interface conviviale." 
+                       TextColor="DimGray" 
+                       FontSize="16" />
+
+                <!-- Fonctionnalités principales -->
+                <Label Text="Fonctionnalités principales" 
+                       TextColor="SteelBlue" 
+                       FontSize="20" 
+                       FontAttributes="Bold" />
+
+                <!-- Ajouter un produit -->
+                <Label Text="Ajouter un produit" 
+                       TextColor="RoyalBlue" 
+                       FontSize="18" 
+                       FontAttributes="Bold" />
+                <Label Text="• Appuyez sur le bouton 'Ajouter un produit'. Remplissez les informations requises telles que le nom, la description, la quantité et le prix. Cliquez sur 'Enregistrer' pour ajouter le produit à votre inventaire." 
+                       TextColor="DimGray" 
+                       FontSize="16" />
+
+                <!-- Supprimer un produit -->
+                <Label Text="Supprimer un produit" 
+                       TextColor="RoyalBlue" 
+                       FontSize="18" 
+                       FontAttributes="Bold" />
+                <Label Text="• Appuyez sur le bouton 'Supprimer un produit'. Sélectionnez le produit que vous souhaitez retirer de la liste. Confirmez la suppression pour enlever définitivement le produit de votre inventaire." 
+                       TextColor="DimGray" 
+                       FontSize="16" />
+
+                <!-- Voir tous les produits -->
+                <Label Text="Voir tous les produits" 
+                       TextColor="RoyalBlue" 
+                       FontSize="18" 
+                       FontAttributes="Bold" />
+                <Label Text="• Appuyez sur le bouton 'Voir tous les produits'. Une liste complète de tous les produits dans l'inventaire sera affichée. Vous pourrez consulter les détails de chaque produit et effectuer des recherches spécifiques." 
+                       TextColor="DimGray" 
+                       FontSize="16" />
+
+                <!-- Retour -->
+                <Label Text="Retour" 
+                       TextColor="RoyalBlue" 
+                       FontSize="18" 
+                       FontAttributes="Bold" />
+                <Label Text="• Appuyez sur le bouton 'Retour' pour revenir à l'écran précédent ou au menu principal de l'application." 
+                       TextColor="DimGray" 
+                       FontSize="16" />
+
+                <!-- Conseils et bonnes pratiques -->
+                <Label Text="Conseils et bonnes pratiques" 
+                       TextColor="SteelBlue" 
+                       FontSize="20" 
+                       FontAttributes="Bold" />
+                <Label Text="• Gardez votre inventaire à jour : Mettez régulièrement à jour les informations sur les produits pour refléter les changements dans votre stock. • Utilisez des descriptions détaillées : Lors de l'ajout de nouveaux produits, fournissez des descriptions précises pour faciliter la gestion. • Vérifiez régulièrement les quantités : Assurez-vous que les quantités en stock sont exactes en effectuant des vérifications fréquentes." 
+                       TextColor="DimGray" 
+                       FontSize="16" />
+
+                <!-- Contact et support -->
+                <Label Text="Contact et support" 
+                       TextColor="SteelBlue" 
+                       FontSize="20" 
+                       FontAttributes="Bold" />
+                <Label Text="Pour toute question ou assistance supplémentaire, veuillez contacter notre support technique à l'adresse suivante : jafayassine2@gmail.com." 
+                       TextColor="DimGray" 
+                       FontSize="16" />
+
+            </StackLayout>
+        </ScrollView>
+
+        <!-- Button for returning -->
+        <Button Text="Retour" 
+                BackgroundColor="SteelBlue" 
+                TextColor="White" 
+                CornerRadius="10" 
+                HeightRequest="50" 
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="End"
+                Clicked="Button_Clicked"/>
+    </StackLayout>
+</ContentPage>

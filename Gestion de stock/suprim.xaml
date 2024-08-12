@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Gestion_de_stock.suprim"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        <StackLayout Padding="20" Spacing="15">
+            <!-- Frame wrapping Entry for ID to Delete with Required Indicator -->
+            <Frame HasShadow="True"
+       Padding="10"
+       BackgroundColor="Transparent"
+       CornerRadius="8"
+       Margin="-10,0,0,15"
+       HorizontalOptions="FillAndExpand">
+                <Label Text="Page Pour Supprimer les client"
+           FontSize="25"
+           TextColor="Black"
+           HorizontalOptions="FillAndExpand"
+           VerticalOptions="Center"
+           HorizontalTextAlignment="Center"/>
+            </Frame>
+            <Frame BackgroundColor="Gainsboro"
+                   CornerRadius="5"
+                   HasShadow="False"
+                   BorderColor="LightSlateGray"
+                   Padding="0">
+                <Entry x:Name="idEntry"
+                       Placeholder="ID (Obligatoire)"
+                       PlaceholderColor="DimGray"
+                       TextColor="Black"
+                       BackgroundColor="Transparent"
+                       FontSize="Medium"
+                       HeightRequest="50"
+                       HorizontalOptions="FillAndExpand"/>
+            </Frame>
+
+            <!-- Frame wrapping Entry for Name -->
+            <Frame BackgroundColor="Gainsboro"
+                   CornerRadius="5"
+                   HasShadow="False"
+                   BorderColor="LightSlateGray"
+                   Padding="0">
+                <Entry x:Name="nameEntry"
+                       Placeholder="Nom"
+                       PlaceholderColor="DimGray"
+                       TextColor="Black"
+                       BackgroundColor="Transparent"
+                       FontSize="Medium"
+                       HeightRequest="50"
+                       HorizontalOptions="FillAndExpand"/>
+            </Frame>
+
+            <!-- Frame wrapping Entry for Email -->
+            <Frame BackgroundColor="Gainsboro"
+                   CornerRadius="5"
+                   HasShadow="False"
+                   BorderColor="LightSlateGray"
+                   Padding="0">
+                <Entry x:Name="emailEntry"
+                       Placeholder="Email"
+                       PlaceholderColor="DimGray"
+                       TextColor="Black"
+                       BackgroundColor="Transparent"
+                       FontSize="Medium"
+                       HeightRequest="50"
+                       HorizontalOptions="FillAndExpand"/>
+            </Frame>
+            <Frame BackgroundColor="Gainsboro"
+        CornerRadius="5"
+        HasShadow="False"
+        BorderColor="LightSlateGray"
+        Padding="0">
+                <Entry x:Name="phoneEntry"
+            Placeholder="Téléphone"
+            PlaceholderColor="DimGray"
+            TextColor="Black"
+            BackgroundColor="Transparent"
+            FontSize="Medium"
+            HeightRequest="50"
+            HorizontalOptions="FillAndExpand"/>
+            </Frame>
+            <!-- Delete Button -->
+            <Button Text="Supprimer"
+                    BackgroundColor="Firebrick"
+                    TextColor="White"
+                    CornerRadius="20"
+                    HeightRequest="50"
+                    FontSize="Medium"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="Start"
+                    Clicked="Button_Clicked_2" />
+
+            <!-- Back Button -->
+            <Button Text="Retour"
+                    BackgroundColor="DodgerBlue"
+                    TextColor="White"
+                    CornerRadius="20"
+                    HeightRequest="50"
+                    FontSize="Medium"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="End"
+                    Clicked="Button_Clicked_1"/>
+            <Label Text="Pour obtenir l'ID De Client, appuyez sur Retour - Voir les Client - et vous trouverez les noms des client avec leurs ID."
+         FontSize="Medium"
+         TextColor="DimGray"
+         HorizontalOptions="Center"
+         VerticalOptions="Center"
+         Margin="0,20,0,0" />
+
+            <!-- Additional Content at the Bottom -->
+            <Label Text="Merci de votre attention!"
+                   FontSize="Large"
+                   TextColor="DimGray"
+                   HorizontalOptions="Center"
+                   VerticalOptions="EndAndExpand"
+                   Margin="0,20,0,0"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
